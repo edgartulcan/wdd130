@@ -8,6 +8,10 @@ main {
     max-width: 840px;
 }
 
+h1 {
+    color: yellow;
+    padding: 10px;
+}
 nav {
     color: white;
     padding: 10px;
@@ -46,7 +50,7 @@ aside image {
 }
 
 footer {
-    margin: 15px;
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
