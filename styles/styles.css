@@ -13,7 +13,7 @@ h1 {
     padding: 10px;
 }
 nav {
-    color: white;
+    background-color: white;
     padding: 10px;
 
 }
@@ -23,7 +23,7 @@ nav a {
     display: block;
 }
 
-main image{
+main img{
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -45,7 +45,7 @@ aside {
     text-align: center;
 }
 
-aside image {
+aside img {
     width: 200px;
     height: auto;
 }
