@@ -11,6 +11,7 @@ main {
 h1 {
     color: yellow;
     padding: 10px;
+    align-content: center;
 }
 nav {
     background-color: black;
