@@ -1,0 +1,63 @@
+/* rafting.css */
+
+/* 1. Define CSS variables in :root */
+:root {
+  --primary-color: #0077b6; /* ocean blue */
+  --secondary-color: #00b4d8; /* sky blue */
+  --accent1-color: #023e8a; /* deep navy */
+  --accent2-color: #90e0ef; /* light cyan */
+  --heading-font: "Georgia", "Times New Roman", serif;
+  --body-font: "Verdana", "Arial", sans-serif;
+}
+
+/* 2. Reset box-model properties for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 3. Style the document body */
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+}
+
+/* 4. Limit page width and center content */
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* 5. Style headings */
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* 6. Style nav, paragraph, section, and article with consistent margin and padding */
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+/* 7. Remove underline from social media image links in the footer */
+.socialmedia a {
+  text-decoration: none;
+}
+
+/* 8. Example header styling using variables */
+header {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  padding: 16px;
+  text-align: center;
+}
+
+/* Optional: Add some spacing to footer */
+footer {
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
+  padding: 16px;
+  text-align: center;
+}
