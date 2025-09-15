@@ -61,3 +61,48 @@ footer {
   padding: 16px;
   text-align: center;
 }
+
+/* Hero container */
+.hero {
+  position: relative; /* Allows children to be positioned absolutely within this div */
+}
+
+/* Hero image */
+.hero img {
+  display: block;   /* Removes inline spacing */
+  width: 100%;      /* Fill entire width of the container */
+  height: auto;     /* Maintain aspect ratio */
+}
+
+/* Overlay heading */
+.hero h1 {
+  position: absolute;    /* Position over the hero image */
+  top: 20px;             /* Distance from top */
+  width: 100%;           /* Full width */
+  padding: 16px;         /* Space around text */
+  text-align: center;    /* Center text */
+  opacity: 0.7;          /* Semi-transparent */
+  background-color: var(--accent1-color); /* Custom color variable */
+  color: #fff;           /* White text for contrast */
+}
+
+/* Overlay article */
+.hero article {
+  position: absolute;    /* Position over the hero image */
+  bottom: 20px;          /* Distance from bottom */
+  left: 20px;            /* Distance from left */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  padding: 16px;
+  color: #fff;
+  max-width: 400px;      /* Limit the width */
+  border-radius: 8px;    /* Rounded corners */
+}
+
+/* Image inside the article */
+.hero article img {
+  float: right;      /* Float image to the right */
+  width: 125px;      /* Specific width */
+  margin-left: 16px; /* Space between text and image */
+  border: 2px solid #fff; /* Optional styling */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Optional styling */
+}
