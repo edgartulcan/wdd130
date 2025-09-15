@@ -89,13 +89,13 @@ footer {
 /* Overlay article */
 .hero article {
   position: absolute;    /* Position over the hero image */
-  bottom: 20px;          /* Distance from bottom */
-  left: 20px;            /* Distance from left */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
-  padding: 16px;
-  color: #fff;
-  max-width: 400px;      /* Limit the width */
-  border-radius: 8px;    /* Rounded corners */
+  top: 90px;             /* Distance from top */
+  width: 100%;           /* Full width */
+  padding: 16px;         /* Space around text */
+  text-align: center;    /* Center text */
+  opacity: 0.7;          /* Semi-transparent */
+  background-color: var(--accent1-color); /* Custom color variable */
+  color: #fff;    /* Rounded corners */
 }
 
 /* Image inside the article */
