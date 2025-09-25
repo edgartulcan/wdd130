@@ -154,4 +154,25 @@ footer {
 footer .social {
   display: flex;
   gap: 1rem;
+   ;
+}
+
+.history {
+  padding: 2rem;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.history img {
+  width: 200px;
+  border-radius: 8px;
 }
