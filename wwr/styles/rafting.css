@@ -216,8 +216,6 @@ body {
     }
 
     form {
-      max-width: 500px;
-      margin: 30px auto;
       padding: 20px;
       background: #ffffff;
       border-radius: 10px;
@@ -280,4 +278,27 @@ body {
 
 .information {
   text-align: center;
+}
+
+.mapform-grid {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.map {
+  align-self: stretch;
+}
+
+.contactform {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
