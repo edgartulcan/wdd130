@@ -30,7 +30,7 @@ header, main, footer {
 }
 
 /* 5. Style headings */
-h1, h2 {
+h1, h2, h3 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
@@ -303,6 +303,8 @@ iframe {
   border: none;
 }
 
+
+
 /* Index o home page */
 
 .programs-gallery {
@@ -333,9 +335,16 @@ figcaption {
   text-align: center;
 }
 
+.imageform  {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  justify-content: space-between;
+}
 
-
-
+h3 {
+  text-align: center;
+}
 
 
 /* Trips page */
